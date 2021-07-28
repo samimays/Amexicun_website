@@ -1,12 +1,7 @@
 body{
     font-family: Montserrat;
     color: white;
-    /*background-image: url('images/Amexicun_Logo.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 50% 50%;
-    background-position: center;*/
-    background-color: black;
+    background-color: #191817;
     text-align: center;
 }
 .nav-item{
@@ -18,7 +13,13 @@ body{
 }
 
 #home-section{
-    margin: 10% 5%;
+    padding: 8% 5%;
+    background-color: #A5633C;
+}
+
+#carousel-section{
+    padding: 5% 0;
+    background-color: #733B31;
 }
 
 .carousel-image{
@@ -29,10 +30,42 @@ body{
     margin: 0 0 5% 0;
 }
 
-.about-paragraph{
-    margin: 5%;
+#about-paragraph{
+    background-color: #A5633C;
+    padding: 5%;
+}
+
+#footer{
+    background-color: #ACA698;
 }
 
 .footer-items{
     margin: 0 5%;
+}
+
+#location-note{
+    background-color: #A5633C;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+#location{
+    background-color: #733B31;
+    padding: 5% 8%;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.location-table{
+    color: white;
+}
+
+#steak-menu{
+    background-color: #A5633C;
+    padding: 5%;
+}
+
+#fusion-menu{
+    background-color: #733B31;
+    padding: 5%;
 }

@@ -39,6 +39,8 @@
    />
 
 </head>
+
+<!-- Navbar -->
 <body>
   <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container">
@@ -48,6 +50,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand" href="#">
+              <img src="images/Amexicun_Logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" href="" >Home</a>
           </li>
@@ -65,18 +72,18 @@
     </div>
   </nav>
 
+  <!-- Amexicun Logo -->
   <section>
     <img src="images/Amexicun_Logo.jpg" class="home-page-image">
   </section>
 
-  <section>
-    <h3 id="home-section"> An American, Mexican, and Cajun infusion based out of Houston, Texas.
+  <section id="home-section">
+    <h3> An American, Mexican, and Cajun infusion based out of Houston, Texas.
       Amexicun offers several dishes made from scratch with fresh ingredients and passion. </h3>
-
   </section>
-  <h1 class="gallery-title">Gallery</h1>
 
   <section id="carousel-section">
+  <h1 class="gallery-title">Gallery</h1>
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -106,14 +113,11 @@
   </section>
 
   <!-- Contact us Section in footer -->
-  <footer>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+  <footer id="footer">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <div class="footer-items collapse navbar-collapse" id="navbarNav">
+        <div class="footer-items d-flex flex-row-reverse collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-image nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
             <li class="nav-image nav-item">
               <a class="navbar-brand" href="#">
                 <i class="fab fa-facebook"></i>
@@ -124,10 +128,16 @@
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
+            <li class="nav-image nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+
+
+
   </footer>
     
 </body>
