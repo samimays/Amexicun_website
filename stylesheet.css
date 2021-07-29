@@ -1,8 +1,11 @@
 body{
-    font-family: Montserrat;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: #191817;
     text-align: center;
+}
+h1{
+    font-family: 'Allura', cursive;
 }
 .nav-item{
     color: white;
@@ -56,6 +59,11 @@ body{
     text-align: left;
 }
 
+.table-headers{
+    font-family: 'Allura', cursive;
+    font-size: 2.5rem;
+}
+
 .location-table{
     color: white;
 }
@@ -68,4 +76,24 @@ body{
 #fusion-menu{
     background-color: #733B31;
     padding: 5%;
+}
+
+#contact-intro-section{
+    background-color: #A5633C;
+    padding: 5%;
+}
+
+#contact-form-section{
+    background-color: #733B31;
+    padding: 5%;
+}
+
+.parent{
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    display: block;
+    margin: auto;
 }
