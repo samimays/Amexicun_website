@@ -7,6 +7,9 @@ body{
 h1{
     font-family: 'Allura', cursive;
 }
+.nav1{
+    background-color: #B34234;
+}
 .nav-item{
     color: white;
 }
@@ -17,12 +20,10 @@ h1{
 
 #home-section{
     padding: 8% 5%;
-    background-color: #A5633C;
 }
 
 #carousel-section{
     padding: 5% 0;
-    background-color: #733B31;
 }
 
 .carousel-image{
@@ -34,12 +35,11 @@ h1{
 }
 
 #about-paragraph{
-    background-color: #A5633C;
     padding: 5%;
 }
 
 #footer{
-    background-color: #ACA698;
+    background-color: #CED050;
 }
 
 .footer-items{
@@ -47,13 +47,11 @@ h1{
 }
 
 #location-note{
-    background-color: #A5633C;
     padding: 2%;
     font-size: 1.2rem;
 }
 
 #location{
-    background-color: #733B31;
     padding: 5% 8%;
     font-size: 1.5em;
     text-align: left;
@@ -69,22 +67,18 @@ h1{
 }
 
 #steak-menu{
-    background-color: #A5633C;
     padding: 5%;
 }
 
 #fusion-menu{
-    background-color: #733B31;
     padding: 5%;
 }
 
 #contact-intro-section{
-    background-color: #A5633C;
     padding: 5%;
 }
 
 #contact-form-section{
-    background-color: #733B31;
     padding: 5%;
 }
 
