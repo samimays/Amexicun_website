@@ -13,6 +13,9 @@ h1{
 .nav-item{
     color: white;
 }
+.header-image{
+    padding-top: 2%;
+}
 
 .home-page-image{
     width: 100%;
@@ -40,6 +43,9 @@ h1{
 
 #footer{
     background-color: #CED050;
+}
+.footer-image{
+    padding-top: 3%;
 }
 
 .footer-items{
