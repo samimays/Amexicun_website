@@ -14,6 +14,14 @@ h1{
 .nav-item{
     color: white;
 }
+.navbar-image{
+    max-width: 100%;
+}
+.header-logo{
+    font-family: 'Allura', cursive;
+    font-size: 1.5rem;
+    text-shadow: 1.2px 1.2px black;
+}
 .header-image{
     padding-top: 2%;
 }
@@ -94,11 +102,11 @@ h1{
 }
 
 #contact-intro-section{
-    padding: 5%;
+    padding: 2% 5% 0;
 }
 
 #contact-form-section{
-    padding: 5%;
+    padding: 2% 5% 4%;
 }
 
 .parent{
